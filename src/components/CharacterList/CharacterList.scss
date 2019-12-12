@@ -1,0 +1,33 @@
+#character-search {
+    display: block
+}
+
+#character-list-group {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+    .list-group-item {
+        /* fix for iOS */
+        min-height: 48px;
+    }
+
+    &::-webkit-scrollbar {
+        background-color:#222;
+        width:16px
+    }
+    
+    /* background of the scrollbar except button or resizer */
+    &::-webkit-scrollbar-track {
+        background-color:#222
+    }
+    
+    /* scrollbar itself */
+    &::-webkit-scrollbar-thumb {
+        background-color:#444;
+        border-radius:16px;
+        border:4px solid #222
+    }
+    
+    /* set button(top and bottom of the scrollbar) */
+    &::-webkit-scrollbar-button {display:none}
+}

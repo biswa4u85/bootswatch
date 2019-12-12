@@ -1,0 +1,29 @@
+.column-item {
+    .fa-grip-lines {
+        margin-right: 20px;
+        cursor: move;
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+        
+        /* currently not working - bug in react-sortable-hoc */
+        &:active {
+            cursor: grabbing;
+            cursor: -moz-grabbing;
+            cursor: -webkit-grabbing;
+        }
+    }
+
+    .column-visibility {
+        float: right;
+    
+        .form-label {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.sortableHelper {
+    z-index: 9999;
+    pointer-events: auto !important;
+}

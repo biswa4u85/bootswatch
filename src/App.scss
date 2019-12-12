@@ -1,0 +1,35 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-flow: column;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    overflow: auto;
+}
+
+#toolbar {
+    display: block;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}

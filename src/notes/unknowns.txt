@@ -1,0 +1,29 @@
+Speed:
+Akuma:
+pc1~
+pc8~
+pc8~54
+
+7(16~43) js1~
+11,23,35a cs6~7
+12s cs4or1~
+19(~)
+
+Josie d/f+3+4 - 26 pc8~25 ar26~
+
+-----------------------
+10
+10~12
+pc1~ - power crush from frame 1
+ar26~ - arial from frame 26 ??? (Arial attack state)
+22~23a js9~ - active hitbox from frame 22 to 23 , with jumping state from frame 9 ???
+Akuma's FC+4 says 17~18s cs6or1~ - 17-18 active hitbox, crouch state from frame 6 or 1? recovers in a while standing state (s = WS)
+Akuma tatsu - 10,25,44,54a js13~ - 54a is recover in arial state?
+21s cs6~ - i21 - recover WS - Crouching state from from frame 6
+----------
+s   - in Speed column means YOUR character ends in WS state
+    - in OnHit, OnBlock, or OnCH OPPONENT ends in WS state
+    
+
+CS = crumble state
+10s cs4or1~
